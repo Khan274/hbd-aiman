@@ -11,18 +11,18 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `My Dearest Madam Jii,
+    const letterText = `Aiman, Happy Birthday! 💖
 
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
+Today is such a special day for both of us — the day you came into this world.  
+    
+You are the reason behind my smiles, the brightest part of my life. I think of you every single day, and I just want to see you always happy, always smiling, and never in tears. 
 
-You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
+You are the most beautiful chapter of my life. Insha’Allah, very soon we will celebrate your birthday together. Even though distance separates us today, I pray that Allah brings us closer and keeps us together forever. Ameen.  
 
-Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
-
-Happy Birthday, beautiful soul! 🎂✨
+This is my small effort, and I hope it makes you smile. Once again, Happy Birthday my love, Aiman My jaan, my cutie pie, my baby, my everything. I love you endlessly.  
 
 With all my love and warmest wishes,
-Forever Yours 💕`
+Malik Ibrahim ❤️`
 
     useEffect(() => {
         if (showText) {
